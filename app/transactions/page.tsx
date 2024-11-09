@@ -1,7 +1,5 @@
-export default function Transactions() {
-    return (
-        <>
-            <h1>hellp word</h1>
-        </>
-    )
-}
+const TransactionsPage = () => {
+  return <h2>sfsdf</h2>;
+};
+
+export default TransactionsPage;

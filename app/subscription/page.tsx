@@ -1,7 +1,5 @@
-const Subcript = () => {
-    return (
-        <h1>SUbcript page</h1>
-    )
-}
+const SubcriptPage = () => {
+  return <h1>SUbcript page</h1>;
+};
 
-export default Subcript
+export default SubcriptPage;
