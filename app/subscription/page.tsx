@@ -1,5 +1,11 @@
+import NavBar from "../_components/navbar";
+
 const SubcriptPage = () => {
-  return <h1>SUbcript page</h1>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 };
 
 export default SubcriptPage;
