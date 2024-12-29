@@ -26,7 +26,7 @@ const AcquirePlanBUtton = () => {
 
   if (hasPremiumPlan) {
     return (
-      <Button className="w-full rounded-full font-bold" variant="link">
+      <Button className="w-full rounded-full font-bold" variant="link" asChild>
         <Link
           href={`${process.env.NEXT_PUBLIC_STRIPE_CUSTOMER_PORTAL_URL as string}?prefilled_email=${user.emailAddresses[0].emailAddress}`}
         >
