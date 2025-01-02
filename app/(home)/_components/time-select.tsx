@@ -27,9 +27,11 @@ const TimeSelect = () => {
   const { push } = useRouter();
   const searchParams = useSearchParams();
   const month = searchParams.get("month");
+
   const handleMonthChange = (month: string) => {
     push(`/?month=${month}`);
   };
+  console.log("Month => ", month);
   return (
     <Select
       onValueChange={(value) => handleMonthChange(value)}
